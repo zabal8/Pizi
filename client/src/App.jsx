@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import "./styles.css";
 
-const API = "http://localhost:3001/api";
+const API = "https://pizia-api.onrender.com/api";
 const money = (v) =>
   new Intl.NumberFormat("es-CO", {
     style: "currency",
